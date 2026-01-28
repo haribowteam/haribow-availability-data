@@ -2,7 +2,7 @@
   "last_updated": "2026-01-23",
   "thresholds": {
     "yellow": 0.7
-  },
+  },　
   "capacity_weeks": [
     { "start": "2026-02-02", "capacity": 4, "note": "Europa-Park included" },
     { "start": "2026-02-09", "capacity": 4, "note": "Europa-Park included" },
