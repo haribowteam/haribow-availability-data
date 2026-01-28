@@ -1,117 +1,26 @@
 {
   "meta": {
-    "lastUpdated": "2026-01-23",
-    "weekStartsOn": "MON",
+    "last_updated": "2026-01-29",
+    "week_starts_on": "MON",
     "timezone": "Europe/Berlin"
   },
-  "legend": [
-    {
-      "key": "available",
-      "label": "Available",
-      "style": { "shape": "none", "note": "No bookings / inquiries" }
-    },
-    {
-      "key": "booked",
-      "label": "Confirmed",
-      "style": { "shape": "circle", "fill": "solid", "color": "#2563EB" }
-    },
-    {
-      "key": "inquiry",
-      "label": "Inquiry",
-      "style": { "shape": "circle", "fill": "none", "stroke": "dashedBold", "color": "#F59E0B" }
-    },
-    {
-      "key": "highDemand",
-      "label": "High demand",
-      "style": { "shape": "circle", "fill": "none", "stroke": "dashedRed", "color": "#EF4444" }
-    },
-    {
-      "key": "blocked",
-      "label": "Blocked (Capacity=0)",
-      "style": { "shape": "circle", "fill": "solid", "color": "#9CA3AF" }
-    }
-  ],
-  "capacityWeeks": [
+
+  "capacity_weeks": [
+    { "start": "2026-01-26", "end": "2026-02-01", "capacity": 3, "memo": "" },
+
     { "start": "2026-02-02", "end": "2026-02-08", "capacity": 4, "memo": "Europapark" },
-    { "start": "2026-02-09", "end": "2026-02-15", "capacity": 4 },
-    { "start": "2026-02-16", "end": "2026-02-22", "capacity": 4 },
-    { "start": "2026-02-23", "end": "2026-03-01", "capacity": 4 },
+    { "start": "2026-02-09", "end": "2026-02-15", "capacity": 4, "memo": "" },
+    { "start": "2026-02-16", "end": "2026-02-22", "capacity": 4, "memo": "" },
+    { "start": "2026-02-23", "end": "2026-03-01", "capacity": 4, "memo": "" },
 
-    { "start": "2026-03-02", "end": "2026-03-08", "capacity": 4 },
-    { "start": "2026-03-09", "end": "2026-03-15", "capacity": 4 },
-    { "start": "2026-03-16", "end": "2026-03-22", "capacity": 4 },
-    { "start": "2026-03-23", "end": "2026-03-29", "capacity": 4 },
-    { "start": "2026-03-30", "end": "2026-04-05", "capacity": 3 },
-
-    { "start": "2026-04-06", "end": "2026-04-12", "capacity": 3 },
-    { "start": "2026-04-13", "end": "2026-04-19", "capacity": 3 },
-    { "start": "2026-04-20", "end": "2026-04-26", "capacity": 3 },
-    { "start": "2026-04-27", "end": "2026-05-03", "capacity": 3 },
-
-    { "start": "2026-05-04", "end": "2026-05-10", "capacity": 3 },
-    { "start": "2026-05-11", "end": "2026-05-17", "capacity": 3 },
-    { "start": "2026-05-18", "end": "2026-05-24", "capacity": 3 },
-    { "start": "2026-05-25", "end": "2026-05-31", "capacity": 3 },
-
-    { "start": "2026-06-01", "end": "2026-06-07", "capacity": 3 },
-    { "start": "2026-06-08", "end": "2026-06-14", "capacity": 3 },
-    { "start": "2026-06-15", "end": "2026-06-21", "capacity": 3 },
-    { "start": "2026-06-22", "end": "2026-06-28", "capacity": 3 },
-    { "start": "2026-06-29", "end": "2026-07-05", "capacity": 3 },
-
-    { "start": "2026-07-06", "end": "2026-07-12", "capacity": 3 },
-    { "start": "2026-07-13", "end": "2026-07-19", "capacity": 3 },
-    { "start": "2026-07-20", "end": "2026-07-26", "capacity": 3 },
-    { "start": "2026-07-27", "end": "2026-08-02", "capacity": 3 },
-
-    { "start": "2026-08-03", "end": "2026-08-09", "capacity": 3, "memo": "Delight East only 2" },
-    { "start": "2026-08-10", "end": "2026-08-16", "capacity": 5 },
-    { "start": "2026-08-17", "end": "2026-08-23", "capacity": 5 },
-    { "start": "2026-08-24", "end": "2026-08-30", "capacity": 5 },
-    { "start": "2026-08-31", "end": "2026-09-06", "capacity": 5 },
-
-    { "start": "2026-09-07", "end": "2026-09-13", "capacity": 5, "memo": "Delight East/Japan only 2" },
-    { "start": "2026-09-14", "end": "2026-09-20", "capacity": 5 },
-    { "start": "2026-09-21", "end": "2026-09-27", "capacity": 5 },
-    { "start": "2026-09-28", "end": "2026-10-04", "capacity": 5 },
-
-    { "start": "2026-10-05", "end": "2026-10-11", "capacity": 4, "memo": "Delight Japan only 2" },
-    { "start": "2026-10-12", "end": "2026-10-18", "capacity": 4 },
-    { "start": "2026-10-19", "end": "2026-10-25", "capacity": 4 },
-    { "start": "2026-10-26", "end": "2026-11-01", "capacity": 4 },
-
-    { "start": "2026-11-02", "end": "2026-11-08", "capacity": 4 },
-    { "start": "2026-11-09", "end": "2026-11-15", "capacity": 4 },
-    { "start": "2026-11-16", "end": "2026-11-22", "capacity": 4 },
-    { "start": "2026-11-23", "end": "2026-11-29", "capacity": 4 },
-    { "start": "2026-11-30", "end": "2026-12-06", "capacity": 4 },
-
-    { "start": "2026-12-07", "end": "2026-12-13", "capacity": 6 },
-    { "start": "2026-12-14", "end": "2026-12-20", "capacity": 7 },
-    { "start": "2026-12-21", "end": "2026-12-27", "capacity": 9 },
-    { "start": "2026-12-28", "end": "2027-01-03", "capacity": 10 },
-
-    { "start": "2027-01-04", "end": "2027-01-10", "capacity": 9 },
-    { "start": "2027-01-11", "end": "2027-01-17", "capacity": 6 },
-    { "start": "2027-01-18", "end": "2027-01-24", "capacity": 4 },
-    { "start": "2027-01-25", "end": "2027-01-31", "capacity": 4 },
-
-    { "start": "2027-02-01", "end": "2027-02-07", "capacity": 4 },
-    { "start": "2027-02-08", "end": "2027-02-14", "capacity": 4 },
-    { "start": "2027-02-15", "end": "2027-02-21", "capacity": 4 },
-    { "start": "2027-02-22", "end": "2027-02-28", "capacity": 4 },
-
-    { "start": "2027-03-01", "end": "2027-03-07", "capacity": 4 },
-    { "start": "2027-03-08", "end": "2027-03-14", "capacity": 4 },
-    { "start": "2027-03-15", "end": "2027-03-21", "capacity": 4 },
-    { "start": "2027-03-22", "end": "2027-03-28", "capacity": 4 },
-    { "start": "2027-03-29", "end": "2027-04-04", "capacity": 4 }
+    { "start": "2026-03-02", "end": "2026-03-08", "capacity": 4, "memo": "" },
+    { "start": "2026-03-09", "end": "2026-03-15", "capacity": 4, "memo": "" },
+    { "start": "2026-03-16", "end": "2026-03-22", "capacity": 4, "memo": "" },
+    { "start": "2026-03-23", "end": "2026-03-29", "capacity": 4, "memo": "" },
+    { "start": "2026-03-30", "end": "2026-04-05", "capacity": 3, "memo": "" }
   ],
-  "capacityOverridesByDate": {
-    "2026-03-15": 0,
-    "2026-03-16": 0
-  },
-  "bookings": [
+
+  "events": [
     {
       "id": "BK-EP-01",
       "type": "booked",
@@ -122,6 +31,23 @@
       "label": "Europapark"
     },
     {
+      "id": "INQ-UAE-01",
+      "type": "inquiry",
+      "start": "2026-02-10",
+      "end": "2026-02-25",
+      "teams": 1,
+      "country": "UAE",
+      "label": "Dubai"
+    },
+    {
+      "id": "HD-TEST-01",
+      "type": "high_demand",
+      "start": "2026-02-16",
+      "end": "2026-02-22",
+      "country": "",
+      "label": "High demand test"
+    },
+    {
       "id": "BK-FULL-APR",
       "type": "booked",
       "start": "2026-04-10",
@@ -129,65 +55,13 @@
       "teams": 3,
       "country": "France",
       "label": "Paris (Full test)"
-    },
-    {
-      "id": "BK-WINTER-LONG",
-      "type": "booked",
-      "start": "2026-12-14",
-      "end": "2027-01-06",
-      "teams": 5,
-      "country": "UAE",
-      "label": "Winter Circuit"
     }
   ],
-  "inquiries": [
-    {
-      "id": "INQ-UAE-02",
-      "type": "inquiry",
-      "start": "2026-02-10",
-      "end": "2026-02-25",
-      "teams": 1,
-      "country": "UAE",
-      "label": "Dubai (Inquiry)"
-    },
-    {
-      "id": "INQ-JP-03",
-      "type": "inquiry",
-      "start": "2026-03-05",
-      "end": "2026-03-12",
-      "teams": 2,
-      "country": "Japan",
-      "label": "Tokyo (Inquiry)"
-    },
-    {
-      "id": "INQ-UK-04",
-      "type": "inquiry",
-      "start": "2026-04-20",
-      "end": "2026-04-26",
-      "teams": 1,
-      "country": "UK",
-      "label": "London (Inquiry)"
-    },
-    {
-      "id": "INQ-PEAK-DEC",
-      "type": "inquiry",
-      "start": "2026-12-21",
-      "end": "2026-12-27",
-      "teams": 3,
-      "country": "Spain",
-      "label": "Peak week (Inquiry)"
-    }
-  ],
-  "highDemandRanges": [
-    {
-      "start": "2026-02-16",
-      "end": "2026-02-22",
-      "label": "High demand test"
-    },
-    {
-      "start": "2026-12-21",
-      "end": "2026-12-27",
-      "label": "High demand test"
-    }
+
+  "legend": [
+    { "key": "booked", "label": "Confirmed", "style": "solid_circle" },
+    { "key": "inquiry", "label": "Inquiry", "style": "bold_dashed_circle" },
+    { "key": "high_demand", "label": "High demand", "style": "red_dashed" },
+    { "key": "available", "label": "Available", "style": "white" }
   ]
 }
