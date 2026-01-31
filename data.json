@@ -1,18 +1,18 @@
 {
-  "last_updated": "2026-01-30",
+  "last_updated": "2026-01-31",
   "thresholds": { "yellow": 0.7 },
 
   "capacity_weeks": [
-    { "start": "2026-02-02", "capacity": 4, "note": "Europa-Park included" },
-    { "start": "2026-02-09", "capacity": 4, "note": "Europa-Park included" },
-    { "start": "2026-02-16", "capacity": 4, "note": "Europa-Park included" },
-    { "start": "2026-02-23", "capacity": 4, "note": "Europa-Park included" },
+    { "start": "2026-02-02", "capacity": 4, "note": "Europa-Park" },
+    { "start": "2026-02-09", "capacity": 4, "note": "Europa-Park" },
+    { "start": "2026-02-16", "capacity": 4, "note": "Europa-Park" },
+    { "start": "2026-02-23", "capacity": 4, "note": "Europa-Park" },
 
     { "start": "2026-03-02", "capacity": 4, "note": "" },
     { "start": "2026-03-09", "capacity": 4, "note": "" },
     { "start": "2026-03-16", "capacity": 4, "note": "" },
     { "start": "2026-03-23", "capacity": 4, "note": "" },
-    { "start": "2026-03-30", "capacity": 3, "note": "3/15 & 3/16 blocked" },
+    { "start": "2026-03-30", "capacity": 3, "note": "" },
 
     { "start": "2026-04-06", "capacity": 3, "note": "" },
     { "start": "2026-04-13", "capacity": 3, "note": "" },
@@ -35,18 +35,18 @@
     { "start": "2026-07-20", "capacity": 3, "note": "" },
     { "start": "2026-07-27", "capacity": 3, "note": "" },
 
-    { "start": "2026-08-03", "capacity": 3, "note": "Delight East only 2 (see overrides)" },
+    { "start": "2026-08-03", "capacity": 3, "note": "Delight East only 2" },
     { "start": "2026-08-10", "capacity": 5, "note": "" },
     { "start": "2026-08-17", "capacity": 5, "note": "" },
     { "start": "2026-08-24", "capacity": 5, "note": "" },
     { "start": "2026-08-31", "capacity": 5, "note": "" },
 
-    { "start": "2026-09-07", "capacity": 5, "note": "Delight East/Japan only 2 (see overrides)" },
-    { "start": "2026-09-14", "capacity": 5, "note": "" },
-    { "start": "2026-09-21", "capacity": 5, "note": "Solo show days blocked (see overrides)" },
+    { "start": "2026-09-07", "capacity": 5, "note": "Delight East/Japan only 2" },
+    { "start": "2026-09-14", "capacity": 5, "note": "Late Sep solo show planned (0 days TBD)" },
+    { "start": "2026-09-21", "capacity": 5, "note": "Late Sep solo show planned (0 days TBD)" },
     { "start": "2026-09-28", "capacity": 5, "note": "" },
 
-    { "start": "2026-10-05", "capacity": 4, "note": "Delight Japan only 2 (see overrides) / Solo show days blocked" },
+    { "start": "2026-10-05", "capacity": 4, "note": "Delight Japan only 2 / Early Oct solo show planned (0 days TBD)" },
     { "start": "2026-10-12", "capacity": 4, "note": "" },
     { "start": "2026-10-19", "capacity": 4, "note": "" },
     { "start": "2026-10-26", "capacity": 4, "note": "" },
@@ -72,51 +72,35 @@
     { "start": "2027-02-15", "capacity": 4, "note": "" },
     { "start": "2027-02-22", "capacity": 4, "note": "" },
 
-    { "start": "2027-03-01", "capacity": 4, "note": "" },
+    { "start": "2027-03-01", "capacity": 4, "note": "Conte only 0 (details TBD)" },
     { "start": "2027-03-08", "capacity": 4, "note": "" },
     { "start": "2027-03-15", "capacity": 4, "note": "" },
     { "start": "2027-03-22", "capacity": 4, "note": "" },
-    { "start": "2027-03-29", "capacity": 4, "note": "Conte days blocked (see overrides)" }
+    { "start": "2027-03-29", "capacity": 4, "note": "" }
   ],
 
   "overrides": [
-    { "date": "2026-02-01", "capacity": 4, "note": "Feb 1 covered (week starts in Jan)" },
-
-    { "date": "2026-03-15", "capacity": 0, "note": "Blocked" },
-    { "date": "2026-03-16", "capacity": 0, "note": "Blocked" },
-
-    { "date": "2026-08-05", "capacity": 2, "note": "Delight East only 2 (test)" },
-    { "date": "2026-09-10", "capacity": 2, "note": "Delight East/Japan only 2 (test)" },
-    { "date": "2026-10-07", "capacity": 2, "note": "Delight Japan only 2 (test)" },
-
-    { "date": "2026-09-25", "capacity": 0, "note": "Solo show (test)" },
-    { "date": "2026-09-26", "capacity": 0, "note": "Solo show (test)" },
-
-    { "date": "2026-10-09", "capacity": 0, "note": "Solo show (test)" },
-
-    { "date": "2027-03-31", "capacity": 0, "note": "Conte (test)" }
+    { "date": "2026-03-15", "capacity": 0, "note": "Blocked (per plan)" },
+    { "date": "2026-03-16", "capacity": 0, "note": "Blocked (per plan)" }
   ],
 
   "events": [
-    { "state": "booked", "start": "2026-02-03", "end": "2026-03-01", "teams": 2, "label": "Germany" },
+    { "id": "BK-20260228", "state": "booked", "start": "2026-02-28", "end": "2026-03-01", "teams": 1, "label": "Confirmed 1" },
+    { "id": "BK-20260306", "state": "booked", "start": "2026-03-06", "end": "2026-03-09", "teams": 1, "label": "Confirmed 2" },
+    { "id": "BK-20260328", "state": "booked", "start": "2026-03-28", "end": "2026-03-28", "teams": 1, "label": "Confirmed 3" },
+    { "id": "BK-20260419", "state": "booked", "start": "2026-04-19", "end": "2026-04-19", "teams": 1, "label": "Confirmed 4" },
 
-    { "state": "booked", "start": "2026-02-14", "end": "2026-02-14", "teams": 2, "label": "France" },
+    { "id": "HL-20260308", "state": "hold", "start": "2026-03-08", "end": "2026-03-08", "teams": 1, "label": "Inquiry 1" },
+    { "id": "HL-20260416", "state": "hold", "start": "2026-04-16", "end": "2026-04-18", "teams": 1, "label": "Inquiry 2" },
+    { "id": "HL-20260419", "state": "hold", "start": "2026-04-19", "end": "2026-04-19", "teams": 1, "label": "Inquiry 3" },
+    { "id": "HL-20260711", "state": "hold", "start": "2026-07-11", "end": "2026-07-13", "teams": 1, "label": "Inquiry 4" },
 
-    { "state": "hold", "start": "2026-02-21", "end": "2026-02-22", "teams": 2, "label": "UAE" },
+    { "id": "BK-20260903", "state": "booked", "start": "2026-09-03", "end": "2026-09-07", "teams": 1, "label": "Confirmed 5" },
 
-    { "state": "booked", "start": "2026-05-12", "end": "2026-05-12", "teams": 1, "label": "UK" },
-    { "state": "hold", "start": "2026-05-12", "end": "2026-05-12", "teams": 1, "label": "Spain" },
+    { "id": "HL-LONG-20260315-0915", "state": "hold", "start": "2026-03-15", "end": "2026-09-15", "teams": 1, "label": "Inquiry Long A" },
+    { "id": "HL-LONG-20260328-0928", "state": "hold", "start": "2026-03-28", "end": "2026-09-28", "teams": 1, "label": "Inquiry Long B" },
 
-    { "state": "hold", "start": "2026-08-05", "end": "2026-08-06", "teams": 1, "label": "UAE" },
-
-    { "state": "booked", "start": "2026-10-06", "end": "2026-10-06", "teams": 3, "label": "Japan" },
-    { "state": "booked", "start": "2026-10-07", "end": "2026-10-07", "teams": 2, "label": "Japan" },
-
-    { "state": "booked", "start": "2026-12-14", "end": "2026-12-20", "teams": 4, "label": "UAE" },
-    { "state": "hold", "start": "2026-12-14", "end": "2026-12-20", "teams": 2, "label": "Germany" },
-
-    { "state": "booked", "start": "2026-12-21", "end": "2026-12-27", "teams": 9, "label": "Germany" },
-
-    { "state": "hold", "start": "2027-01-05", "end": "2027-01-20", "teams": 4, "label": "UAE" }
+    { "id": "HL-LONG-20261118-20270228", "state": "hold", "start": "2026-11-18", "end": "2027-02-28", "teams": 1, "label": "Inquiry Long C" },
+    { "id": "HL-LONG-20261015-20270315", "state": "hold", "start": "2026-10-15", "end": "2027-03-15", "teams": 1, "label": "Inquiry Long D" }
   ]
 }
